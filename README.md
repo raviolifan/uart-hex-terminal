@@ -27,3 +27,12 @@ Characters entered through Tera Term are received over UART, decoded into hexade
 | a-f | Display hex digit |
 | Backspace | Remove last digit |
 | Space | Clear display |
+
+## Challenges Encountered
+- UART baud rate mismatch between the book examples and the Basys 3 clock
+- Converting the UART examples from manual button reads to automatic FIFO reads
+- Handling repeated characters without requiring pushbutton input
+- Implementing backspace and clear commands
+- Supporting uppercase and lowercase hexadecimal input
+- Debugging seven-segment display multiplexing
+
